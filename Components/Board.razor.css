@@ -114,7 +114,8 @@ span.container {
     justify-self: center;
     padding: 1rem;
     border-radius: 25px 20px 20px 5px;
-    background-color: rgba(80, 80, 80, 0.9);
+    background-color: rgba(100, 10, 10, 0.4);
+    box-shadow: 0 0 5px whitesmoke;
     color: white;
 }
 

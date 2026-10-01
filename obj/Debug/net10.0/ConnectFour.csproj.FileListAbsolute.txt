@@ -84,3 +84,4 @@ C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 4\
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 4\Activity\ConnectFour\obj\Debug\net10.0\ref\ConnectFour.dll
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 4\Activity\ConnectFour\obj\Debug\net10.0\compressed\8t7ubqbmk6-{0}-cicfdnqck9-cicfdnqck9.gz
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 4\Activity\ConnectFour\obj\Debug\net10.0\compressed\qps0edvuu1-{0}-cicfdnqck9-cicfdnqck9.gz
+C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 4\Activity\ConnectFour\obj\Debug\net10.0\ConnectFour.sourcelink.json
