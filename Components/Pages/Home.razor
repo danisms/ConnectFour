@@ -1,0 +1,16 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<style>
+    .centralize {
+        display: block;
+        justify-self: center;
+        justify-items: center;
+    }
+</style>
+
+<div class="centralize">
+    <Board @rendermode="InteractiveServer" BoardColor="System.Drawing.Color.Chocolate"
+           Player1Color="System.Drawing.Color.DarkGreen" Player2Color="System.Drawing.Color.RebeccaPurple" />
+</div>
