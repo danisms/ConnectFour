@@ -155,16 +155,16 @@
 
         nextRoundMessage = State.CalculateRound() switch
         {
-            GameState.WinState.Player1_Round_Winner => $"Player 1 Win Round {GetGetRoundValue() - 1}!",
-            GameState.WinState.Player2_Round_Winner => $"Player 2 Win Round {GetGetRoundValue() - 1}!",
-            GameState.WinState.No_Round_Winner => $"No one win Round {GetGetRoundValue() - 1}!",
+            GameState.WinState.Player1_Round_Winner => $"{State.Player1.Name} Wins Round {GetGetRoundValue() - 1}!",
+            GameState.WinState.Player2_Round_Winner => $"{State.Player2.Name} Wins Round {GetGetRoundValue() - 1}!",
+            GameState.WinState.No_Round_Winner => $"No one wins Round {GetGetRoundValue() - 1}!",
             _ => "" // GameState.WinState.No_Winner = string.Empty;
         };
 
         winnerMessage = State.CalculateRound() switch
         {
-            GameState.WinState.Player1_Wins => "Player 1 Wins!",
-            GameState.WinState.Player2_Wins => "Player 2 Wins!",
+            GameState.WinState.Player1_Wins => $"{State.Player1.Name} Wins!",
+            GameState.WinState.Player2_Wins => $"{State.Player2.Name} Wins!",
             GameState.WinState.Tie => "It's a tie!",
             _ => "" // GameState.WinState.No_Winner = string.Empty;
         };
